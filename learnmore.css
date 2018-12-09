@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(71, 100, 71);
+    font-family: arial;
+}
+
+.nav {
+    margin-left: 16%;
+}
+
+.nav li {
+    display: inline;
+    list-style-type: none;
+    size: 36px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.needle li {
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    size: 20px;
+}
+
+h1 {
+ color: black;
+ background-image: url("sunset.jpg");
+ background-size: 100%;
+ padding: 20px;
+ text-align: center;
+ border: 2px black solid;
+}
+
+h2 {
+    color: gold;
+}
+
+p {
+    color: cornsilk;
+}
+
+.top{
+    color: gold;
+}
+
+.portrait {
+    position: relative;
+}
+.needle {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+img {
+    margin: 1px 10px 10px 10px;
+    padding: 20 px;
+    width: 400px;
+}
+
+.portrait img {
+    height: 400px;
+    width: auto;
+}
